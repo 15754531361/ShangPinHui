@@ -3,6 +3,9 @@ import App from './App.vue'
 
 import router from '@/router'
 
+import TypeNav from '@/pages/AppHome/TypeNav'
+Vue.component(TypeNav.name,TypeNav)
+
 Vue.config.productionTip = false
 
 new Vue({
