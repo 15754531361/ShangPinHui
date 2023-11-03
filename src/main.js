@@ -4,11 +4,8 @@ import App from './App.vue'
 import router from '@/router'
 import store from '@/store'
 
-import TypeNav from '@/pages/AppHome/TypeNav'
-Vue.component(TypeNav.name, TypeNav)
-
-import { reqCategoryList } from '@/api'
-reqCategoryList()
+import TheTypeNav from '@/components/TheTypeNav'
+Vue.component(TheTypeNav.name, TheTypeNav)
 
 Vue.config.productionTip = false
 
