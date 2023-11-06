@@ -5,8 +5,8 @@
     <goods-recommend />
     <goods-rank />
     <goods-interested />
-    <goods-kind />
-    <goods-kind />
+    <goods-floor />
+    <goods-floor />
     <goods-brand />
   </div>
 </template>
@@ -14,10 +14,10 @@
 <script>
 import BannerNews from '@/pages/AppHome/BannerNews'
 import GoodsRecommend from '@/pages/AppHome/GoodsRecommend'
-import GoodsBrand from '@/pages/AppHome/GoodsBrand'
-import GoodsInterested from '@/pages/AppHome/GoodsInterested'
-import GoodsKind from '@/pages/AppHome/GoodsKind'
 import GoodsRank from '@/pages/AppHome/GoodsRank'
+import GoodsInterested from '@/pages/AppHome/GoodsInterested'
+import GoodsFloor from '@/pages/AppHome/GoodsFloor'
+import GoodsBrand from '@/pages/AppHome/GoodsBrand'
 
 export default {
   name: 'app-home',
@@ -26,7 +26,7 @@ export default {
     GoodsRecommend,
     GoodsRank,
     GoodsInterested,
-    GoodsKind,
+    GoodsFloor,
     GoodsBrand,
   },
 }
