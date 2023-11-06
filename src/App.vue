@@ -16,6 +16,9 @@ export default {
     TheHeader,
     TheFooter,
   },
+  mounted() {
+    this.$store.dispatch('categoryList')
+  },
 }
 </script>
 

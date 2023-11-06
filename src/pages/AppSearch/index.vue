@@ -1,5 +1,8 @@
 <template>
-  <div>搜索:{{ $route.query.keyword }}</div>
+  <div>
+    <type-nav></type-nav>
+    搜索:{{ $route.query.keyword }}
+  </div>
 </template>
   
 <script>
