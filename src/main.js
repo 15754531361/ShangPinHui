@@ -8,6 +8,7 @@ import TheTypeNav from '@/components/TheTypeNav'
 Vue.component(TheTypeNav.name, TheTypeNav)
 
 import '@/mock/mockServe'
+import 'swiper/css/swiper.css' 
 
 Vue.config.productionTip = false
 
