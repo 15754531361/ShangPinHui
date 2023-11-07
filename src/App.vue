@@ -17,7 +17,7 @@ export default {
     TheFooter,
   },
   mounted() {
-    this.$store.dispatch('categoryList')
+    this.$store.dispatch('getCategoryList')
   },
 }
 </script>
